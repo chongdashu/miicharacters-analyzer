@@ -30,7 +30,7 @@ def main():
 
     f=open("image_urls.txt", "w")
     
-    for i in range(1,2847):
+    for i in range(1, 2847+1):
         
         if i%100==0:
             print i
